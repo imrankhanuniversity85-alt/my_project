@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4c101b">
+  <meta name="description" content="A wedding invitation celebrating Advocate Abdul Basit Umrani and Nazia Gul Muhammad on Sunday, 29 November 2026.">
+  <title>Basit &amp; Nazia — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="burgundy">
+  <div class="ambient" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Basit and Nazia home">B <span>&amp;</span> N</a>
+    <nav aria-label="Main navigation">
+      <a href="#details">The Day</a><a href="#invitation">Invitation Card</a><a href="#venue">Venue</a><a href="#surprise">A Surprise</a>
+    </nav>
+    <label class="theme-control">Theme
+      <select id="themeSelect" aria-label="Choose website theme">
+        <option value="burgundy">Royal Burgundy</option>
+        <option value="sage">Sage Garden</option>
+        <option value="midnight">Midnight Gold</option>
+        <option value="rose">Rose Champagne</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-photo groom-photo"><img src="images/groom.jpeg" alt="Groom portrait, Advocate Abdul Basit Umrani"></div>
+      <div class="hero-photo bride-photo"><img src="images/bride.jpeg" alt="Bride portrait, Nazia Gul Muhammad"></div>
+      <div class="hero-content reveal">
+        <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <p class="eyebrow">In the name of Allah, the most beneficent &amp; the most merciful</p>
+        <div class="ornament">❧ ✧ ❧</div>
+        <p class="inviting">Together with their families</p>
+        <h1>Basit <span>&amp;</span> Nazia</h1>
+        <p class="full-names">Advocate Abdul Basit Umrani <i>with</i> Nazia Gul Muhammad</p>
+        <p class="hero-copy">Request the pleasure of your company<br>as they begin their beautiful journey together.</p>
+        <a class="button button-primary" href="#details">Explore Invitation <span>↓</span></a>
+        <div class="hero-date">SUNDAY <b>29</b> NOVEMBER <b>2026</b></div>
+      </div>
+      <div class="hero-bottom-note">A day of love, duas &amp; togetherness</div>
+    </section>
+
+    <section class="countdown-section section reveal" aria-labelledby="countdown-heading">
+      <p class="eyebrow">The celebration begins in</p>
+      <h2 id="countdown-heading">Counting Our Blessings</h2>
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div><strong id="days">--</strong><span>Days</span></div>
+        <div><strong id="hours">--</strong><span>Hours</span></div>
+        <div><strong id="minutes">--</strong><span>Minutes</span></div>
+        <div><strong id="seconds">--</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-note">Until Sunday, 29 November 2026 · 11:00 AM (Pakistan Standard Time)</p>
+    </section>
+
+    <section class="section details-section reveal" id="details">
+      <div class="section-heading">
+        <p class="eyebrow">Save the date</p><h2>The Wedding Day</h2><div class="ornament">✧ ─ ❖ ─ ✧</div>
+      </div>
+      <div class="detail-grid">
+        <article class="detail-card"><span class="detail-icon">❦</span><p class="card-label">The Date</p><h3>Sunday, 29</h3><p>November 2026</p></article>
+        <article class="detail-card"><span class="detail-icon">⌖</span><p class="card-label">The Venue</p><h3>Iqbal Marriage Hall</h3><p>Chamber Road Bypass<br>Tando Allahyar, Sindh</p></article>
+        <article class="detail-card"><span class="detail-icon">◷</span><p class="card-label">Gathering</p><h3>11:00 AM</h3><p>We look forward to welcoming you</p></article>
+        <article class="detail-card"><span class="detail-icon">♨</span><p class="card-label">Lunch</p><h3>12:00 PM</h3><p>Lunch will be served</p></article>
+      </div>
+      <p class="host-note">With the blessings of <strong>Mr. Mir Muhammad Umrani</strong><br>and the family of <strong>Gul Muhammad Umrani</strong></p>
+    </section>
+
+    <section class="section invitation-section reveal" id="invitation">
+      <div class="section-heading">
+        <p class="eyebrow">A keepsake for you</p><h2>Our Wedding Invitation Card</h2>
+        <p class="section-subtitle">The original invitation, shared with love.</p>
+      </div>
+      <div class="card-frame">
+        <button class="card-preview" id="openCard" aria-label="Open full-size original wedding invitation card">
+          <img src="images/invitation-card.jpeg" alt="Original wedding invitation card for Advocate A. Basit Umrani and Nazia Gul Muhammad">
+          <span class="zoom-hint">Click to view full invitation ↗</span>
+        </button>
+      </div>
+      <div class="card-actions">
+        <a class="button button-outline" href="images/invitation-card.jpeg" download="Basit-and-Nazia-Original-Wedding-Card.jpeg">Download Original Card</a>
+        <button class="button button-outline" id="shareCard">Share Card</button>
+        <a class="button button-whatsapp" id="shareCardWhatsApp" target="_blank" rel="noopener">Share on WhatsApp</a>
+      </div>
+    </section>
+
+    <section class="section venue-section reveal" id="venue">
+      <div class="section-heading">
+        <p class="eyebrow">Where we celebrate</p><h2>Our Wedding Venue</h2>
+        <div class="ornament">✧ ─ ❖ ─ ✧</div>
+      </div>
+      <div class="venue-layout">
+        <div class="venue-image"><img src="images/marriage-hall.jpg" alt="Interior of Iqbal Marriage Hall, decorated for a wedding"></div>
+        <div class="venue-copy">
+          <p class="eyebrow">Tando Allahyar, Sindh</p>
+          <h3>Iqbal Marriage Hall</h3>
+          <p>Chamber Road Bypass<br>Tando Allahyar, Sindh, Pakistan</p>
+          <p class="venue-small">We can't wait to celebrate this special day with you.</p>
+          <a class="button button-primary" href="https://maps.app.goo.gl/6tXa72SJb3uBd3ew8" target="_blank" rel="noopener">Open Live Location ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surprise-section reveal" id="surprise">
+      <div class="section-heading">
+        <p class="eyebrow">A little note from us</p><h2>Uncover a Blessing</h2>
+        <p class="section-subtitle">Scratch the golden surface to reveal our message.</p>
+      </div>
+      <div class="scratch-wrap">
+        <div class="scratch-message" id="scratchMessage">Your presence, prayers and blessings are the greatest gifts we could receive. Please join us and make our day even more beautiful.</div>
+        <canvas id="scratchCanvas" aria-label="Scratch this golden panel to reveal a special message"></canvas>
+      </div>
+      <button class="button button-outline reset-button" id="resetScratch">Reset Surprise ↻</button>
+    </section>
+
+    <section class="closing-section section reveal">
+      <p class="bismillah">بَارَكَ اللَّهُ لَكُمَا</p>
+      <h2>With love and blessings,</h2><p class="script-name">Basit &amp; Nazia</p>
+      <p>Awaiting to welcome all family members,<br>relatives &amp; friends</p>
+      <a class="button button-primary" id="whatsappContact" target="_blank" rel="noopener">Contact Us on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer><span>Made with love &amp; duas</span><span>Created by imrankhan</span></footer>
+
+  <div class="lightbox" id="cardLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Full-size wedding invitation card">
+    <button class="lightbox-close" id="closeCard" aria-label="Close invitation preview">×</button>
+    <img src="images/invitation-card.jpeg" alt="Full-size original wedding invitation card">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
